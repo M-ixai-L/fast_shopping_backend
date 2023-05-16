@@ -1,0 +1,3 @@
+[2023-05-16 19:09:13.497146] server started: port 4004
+[2023-05-16 19:38:41.551341] run method: updateUser
+[2023-05-16 19:38:42.294283] updateUser result:{"uid":"XiBWm3Xafsa1K4wl7zqBCEiGTk93","email":"sdfsdg","firstName":"name","lastName":"sdg"}
