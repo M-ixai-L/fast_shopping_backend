@@ -1,3 +1,19 @@
 [2023-05-16 19:09:13.497146] server started: port 4004
 [2023-05-16 19:38:41.551341] run method: updateUser
 [2023-05-16 19:38:42.294283] updateUser result:{"uid":"XiBWm3Xafsa1K4wl7zqBCEiGTk93","email":"sdfsdg","firstName":"name","lastName":"sdg"}
+[2023-05-17 08:34:44.512421] server started: port 4004
+[2023-05-17 08:36:24.000942] server started: port 4004
+[2023-05-17 08:38:31.850498] server started: port 4004
+[2023-05-17 08:39:24.890802] server started: port 4004
+[2023-05-17 08:40:14.100871] server started: port 4004
+[2023-05-17 08:40:37.713696] server started: port 4004
+[2023-05-17 09:16:38.824776] updateUser result:null
+[2023-05-17 09:17:07.264295] updateUser result:null
+[2023-05-17 09:18:00.256042] updateUser result:null
+[2023-05-17 09:18:00.336513] updateUser result:null
+[2023-05-17 09:20:39.498255] updateUser result:null
+[2023-05-17 09:22:30.902516] updateUser result:null
+[2023-05-17 09:26:18.751207] updateUser result:null
+[2023-05-17 09:29:37.671420] server started: port 4004
+[2023-05-17 09:30:09.833922] run method: updateUser
+[2023-05-17 09:30:10.609965] updateUser result:{"lastName":"dvb","products":[],"iat":1684278573,"uid":"6NyEn4eoAYPwwiL9tt23VEQ0bQh2","firstName":"edvb","email":"dfb@sdfg.com"}

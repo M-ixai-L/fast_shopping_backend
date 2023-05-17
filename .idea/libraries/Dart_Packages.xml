@@ -9,6 +9,13 @@
             </list>
           </value>
         </entry>
+        <entry key="adaptive_number">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/adaptive_number-1.0.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="analyzer">
           <value>
             <list>
@@ -69,6 +76,20 @@
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/crypto-3.0.3/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="dart_jsonwebtoken">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/dart_jsonwebtoken-2.7.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="ed25519_edwards">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/ed25519_edwards-0.3.1/lib" />
             </list>
           </value>
         </entry>
@@ -405,6 +426,7 @@
     </properties>
     <CLASSES>
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-60.0.0/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/adaptive_number-1.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/analyzer-5.12.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/archive-3.3.7/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/args-2.4.1/lib" />
@@ -414,6 +436,8 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/convert-3.1.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/coverage-1.6.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/crypto-3.0.3/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dart_jsonwebtoken-2.7.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/ed25519_edwards-0.3.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/file-6.1.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/firedart-0.9.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/fixnum-1.1.0/lib" />

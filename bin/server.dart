@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:dart_jsonwebtoken/dart_jsonwebtoken.dart';
 import 'package:firedart/firestore/firestore.dart';
 
 Future main() async {
@@ -20,16 +21,16 @@ Future main() async {
 
       switch (methodName) {
         case 'getUser':
-          final data =
-              await _getUserHandler(request.uri.queryParameters['uid']);
+          final userData = JWT.decode(request.uri.queryParameters['token']!);
+          final data = await _getUserHandler(userData.payload['uid']);
           _log('[${DateTime.now()}] getUser result:$data');
           request.response
             ..write(data)
             ..close();
           break;
         case 'updateUser':
-          final data =
-              await _updateUserHandler(request.uri.queryParameters['userData']);
+          final userData = JWT.decode(request.uri.queryParameters['token']!);
+          final data = await _updateUserHandler(userData.payload);
           _log('[${DateTime.now()}] updateUser result:$data');
           request.response
             ..write(data)
@@ -64,14 +65,12 @@ Future<String?> _getUserHandler(String? uid) async {
   return null;
 }
 
-Future<String?> _updateUserHandler(String? userData) async {
+Future<String?> _updateUserHandler(Map<String, dynamic>? userData) async {
   if (userData != null) {
-    final data = json.decode(userData) as Map<String, dynamic>;
-
     var doc = await Firestore.instance
         .collection("users")
-        .document(data['uid'])
-        .create(data);
+        .document(userData['uid'])
+        .create(userData);
     return jsonEncode(doc.map);
   }
   return null;
